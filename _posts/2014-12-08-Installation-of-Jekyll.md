@@ -2,7 +2,7 @@
 layout: post
 title:  "Installation of Jekyll"
 date:   2014-12-08 10:10:10
-categories: 
+categories: jekyll
 ---
 
 ### Requirements
@@ -27,8 +27,18 @@ $ sudo apt-get install ruby2.1-dev
 
 #### Install Jekyll
 {% highlight bash %}
-$ sudo su
-# gem install jekyll
+$ sudo gem install jekyll
+$ jekyll --version
 {% endhighlight %}
 
 Now that you’ve got everything installed, let’s get to work!
+
+### Quick-start Instructions
+
+{% highlight bash %}
+$ jekyll new my-awesome-site
+$ cd my-my-awesome-site
+$ jekyll serve
+{% endhighlight %}
+
+Now browse to http://localhost:4000
